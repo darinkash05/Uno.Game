@@ -1,0 +1,54 @@
+Instrucciones para el Juego UNO:
+
+Bienvenido al juego UNO, un emocionante juego de cartas donde el objetivo principal es ser el primero en quedarse sin cartas. Aquí están las reglas básicas:
+
++Inicio del Juego:
+
+	El juego comienza con un mínimo de 2 jugadores y un máximo de 8.
+	Cada jugador recibe una mano de 7 cartas al comienzo del juego.
+
++Objetivo:
+
+	El objetivo es ser el primer jugador en quedarse sin cartas en la mano, aquel que lo consiga, ¡Sera el ganador de la partida!.
+
++Reglas Básicas:
+
+	-Los jugadores juegan por turnos en el orden en que fueron ingresados a la partida.
+	-Cada jugador debe jugar una carta que coincida en número, color o símbolo con la carta superior de la pila de descartes.
+
++Cartas Especiales:
+
+	-Reversa: Cambia la dirección del juego.
+	-Saltar: Hace que el siguiente jugador pierda su turno.
+	-+2: Obliga al siguiente jugador a tomar 2 cartas y perder su turno.
+	-Comodines: Pueden jugarse en cualquier momento y permiten al jugador cambiar el color.
+
++Durante la partida:
+
+	Al momento de iniciar la partida, los jugadores seguiran el ciclo de turnos para jugar hasta definir a un ganador, si un jugador
+	no tiene cartas en su mano que coincidan en color o contenido con la carta superior de la pila de descartes, el jugador
+	debera tomar cartas del pozo, hasta que obtenga una carta jugable, si el pozo se queda sin cartas, sera rellenado por un hilo
+	que constantemente evalua su estado, dicho hilo tambien se encarga de mezclar las cartas del pozo constantemente.
+
++Fin del Juego:
+
+	El juego termina cuando un jugador se queda sin cartas. Ese jugador gana la partida.
+
+¡Buena suerte y diviértete jugando UNO!
+
+Descripción de las Cartas:
+
++Cartas Numeradas (0-9):
+
+	Se juegan coincidiendo con el número o color de la carta superior de la pila.
+
++Cartas de Acción (Reversa, Saltar, +2):
+
+	-Reversa: Cambia la dirección del juego.
+	-Saltar: Hace que el siguiente jugador pierda su turno.
+	-+2: Obliga al siguiente jugador a tomar 2 cartas y perder su turno.
+
++Comodines:
+
+	-Comodín: Puede jugarse en cualquier momento y permite al jugador cambiar el color.
+	-+4 Comodín: Similar al comodín, pero obliga al siguiente jugador a robar 4 cartas y pierde su turno.
